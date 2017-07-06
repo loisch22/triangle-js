@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Triangle Tracker</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Triangle Tracker!!!</h1>
+      <h2>We love triangles.  How 'bout you?</h2>
+      <h3>Give us your triangle<h3>
+      <p>We take all kinds:  equilateral, isosceles, and scalene</p>
+      <p>But remember that we need a true triangle.</p>
+      <p>Remember. 'Tri' means '3'.  So we need 3 sides.</p>
+
+      <form id="triangle-tracker">
+        <h4>Input the first side:</h4>
+        <div class="form-group">
+          <label for="side1">Side 1</label>
+          <input id="side1" class="form-control" type="text">
+        </div>
+        <h4>Input the second side:</h4>
+        <div class="form-group">
+          <label for="side2">Side 2</label>
+          <input id="side2" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="side3">Side 3</label>
+          <input id="side3" class="form-control" type="text">
+        </div>
+
+        <button id="track-the-triangle" type="submit" class="btn">Track The Triangle!</button>
+      </form>
+
+      <div class="equilateral">
+        <h2>It's Equilateral!</h2>
+      </div>
+      <div class="isosceles">
+        <h2>It's Isosceles!!</h2>
+      </div>
+      <div class="scalene">
+        <h2>It's Scalene!!!</h2>
+      </div>
+      <div class="not-triangle"></div>
+
+    </div>
+  </body>
